@@ -1,0 +1,3 @@
+const stateInit = {
+    chooseFruit:"watermelon"
+}

@@ -1,10 +1,11 @@
+
 import './App.css';
-import AppFruits from './comps/appFruits';
+import AppRoutes from './appRoutes';
 
 function App() {
   return (
     <div className="App">
-      <AppFruits />
+      <AppRoutes />
     </div>
   );
 }
