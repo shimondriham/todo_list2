@@ -1,9 +1,10 @@
 import './App.css';
+import AppFruits from './comps/appFruits';
 
 function App() {
   return (
-    <div className="container-fluid">
-     <h1>new app</h1>
+    <div className="App">
+      <AppFruits />
     </div>
   );
 }
