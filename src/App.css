@@ -1,0 +1,14 @@
+header a{
+    /* margin: 20px; */
+    color:black;
+    text-decoration: none;
+    padding:0 8px;
+  }
+.home h3  {
+    font-style:italic;
+    color: red;
+}
+.home h4 {
+    font-style:italic;
+    color: red;
+}

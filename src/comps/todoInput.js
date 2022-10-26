@@ -28,9 +28,8 @@ export default function TodoInput() {
       <div className='text-center my-3'>
         <button onClick={onAddClick} className='btn btn-success me-2'>Add new</button>
         <button onClick={() => {
-
-          window.confirm("are you sure?") && dispatch(resetAllItem());
-
+        //  if( Window.confirm("are you sure?"))
+          dispatch(resetAllItem());
         }} className='btn btn-danger'>Reset</button>
       </div>
     </div>

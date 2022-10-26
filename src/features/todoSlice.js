@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { sortBy } from "lodash"
 
 const KEY_LOCAL = "todo_local";
 
@@ -12,6 +13,7 @@ const todoSlice = createSlice({
   reducers:{
     addNewItem:(state,action) => {
       state.todos_ar.push(action.payload.todoItem);
+      state.todos_ar = sortBy(state.todos_ar, "time");
       saveToLocal(state);
     },
     resetAllItem:(state,action) => {

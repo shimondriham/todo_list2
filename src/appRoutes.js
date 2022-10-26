@@ -9,12 +9,12 @@ export default function AppRoutes() {
       <header className='container-fluid'>
         <nav className='container'>
           <Link to="/" className='me-2'>Home</Link>
-          <Link to="/todo" className='me-2'>Todo list</Link>
+          <Link to="/todo" className='me-2'>All tasks</Link>
         </nav>
       </header>
       <Routes>
-        <Route path="/" element={<Home/>}>Home</Route>
-        <Route path="/todo" element={<AppTodo/>}>Home</Route>
+        <Route path="/" element={<AppTodo/>}>Home</Route>
+        <Route path="/todo" element={<Home/>}>Todo list</Route>
       </Routes>
 
     </BrowserRouter>
