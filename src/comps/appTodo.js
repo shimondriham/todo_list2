@@ -4,10 +4,10 @@ import TodoList from './todoList'
 
 export default function AppTodo() {
   return (
-    <div className='container'>
-      <h1 className='display-4'>Todo list app</h1>
+    <div className='container mt-3'>
+      <h1 className='display-4'>Add a task</h1>
       <TodoInput />
       <TodoList />
     </div>
   )
-}
+} 
